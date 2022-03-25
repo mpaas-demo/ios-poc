@@ -1,0 +1,21 @@
+//
+//  mPaas_Poc_Demo-Prefix.pch
+//  mPaas_Poc_Demo
+//
+//  Created by wyy on 2021/07/05.
+
+// MPAAS HEADERS BEGIN
+// This part is maintained by MPaaS plugin automatically. 
+#ifdef __OBJC__
+
+#import "mPaas_Poc_Demo-mPaaS-Headers.h"
+#import "UITableViewCell+MP_Create.h"
+#import "MPScanDemoDef.h"
+#import <mPaas/MPJSONKit.h>
+#import "DemoBaseViewController.h"
+#import "DemoConstans.h"
+#import "AssistDemoDefaultLabelUtil.h"
+#import <MPDiagnosis/MPDiagnoseAdapter.h>
+#import <Lottie/Lottie.h>
+#endif
+// MPAAS HEADERS END
